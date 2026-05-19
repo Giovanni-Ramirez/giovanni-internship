@@ -25,7 +25,7 @@ const ItemDetails = () => {
     }
     
     fetchData();
-  },[])
+  },[id])
   
 
   useEffect(() => {
