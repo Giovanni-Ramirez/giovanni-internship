@@ -30,60 +30,60 @@ const HotCollections = () => {
     fetchData();
   },[])
 
-function NextArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ 
-        ...style, 
-        display: "flex", 
-        justifyContent: "center", 
-        alignItems: "center",
-        fontSize: "40px",
-        color: "black",
-        right: "-16px",
-        border: 'solid rgba(0, 0, 0, 0.2) 1px',
-        width: '50px',
-        height: '50px',
-        borderRadius: '50%',
-        backgroundColor: 'white'
-      }}
-      onClick={onClick}
-    >
-      ➜
-    </div>
-  );
-};
+  function NextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ 
+          ...style, 
+          display: "flex", 
+          justifyContent: "center", 
+          alignItems: "center",
+          fontSize: "40px",
+          color: "black",
+          right: "-16px",
+          border: 'solid rgba(0, 0, 0, 0.2) 1px',
+          width: '50px',
+          height: '50px',
+          borderRadius: '50%',
+          backgroundColor: 'white'
+        }}
+        onClick={onClick}
+      >
+        ➜
+      </div>
+    );
+  };
 
-function PrevArrow(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ 
-        ...style, 
-        display: "flex", 
-        justifyContent: "center", 
-        alignItems: "center",
-        fontSize: "40px",
-        color: "black",
-        left: "-16px",
-        top: '42%',
-        transform: "rotate(180deg)",
-        border: 'solid rgba(0, 0, 0, 0.2) 1px',
-        width: '50px',
-        height: '50px',
-        borderRadius: '50%',
-        backgroundColor: 'white',
-        zIndex: '1'
-      }}
-      onClick={onClick}
-    >
-      ➜
-    </div>
-  );
-};
+  function PrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ 
+          ...style, 
+          display: "flex", 
+          justifyContent: "center", 
+          alignItems: "center",
+          fontSize: "40px",
+          color: "black",
+          left: "-16px",
+          top: '42%',
+          transform: "rotate(180deg)",
+          border: 'solid rgba(0, 0, 0, 0.2) 1px',
+          width: '50px',
+          height: '50px',
+          borderRadius: '50%',
+          backgroundColor: 'white',
+          zIndex: '1'
+        }}
+        onClick={onClick}
+      >
+        ➜
+      </div>
+    );
+  };
 
   const settings = {
     dots: false,
