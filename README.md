@@ -17,3 +17,35 @@ This Has a Clean UI/UX with nice looking animations
 
 ## Explore page with sorting
 <img width="1908" height="1189" alt="image" src="https://github.com/user-attachments/assets/2c1c2516-cc1e-4ad2-b4ca-71eeca72045f" />
+
+## Getting Started
+
+### Prerequisites
+
+* **Node.js:** `v16.20.2` (or any Node `v16` / `v18` LTS)
+  * *If you use [nvm](https://github.com) (or [nvm-windows](https://github.com)), run:*
+    ```bash
+    nvm install 16
+    nvm use 16
+    ```
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com
+   cd giovanni-internship
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm start
+   ```
+   *(Note: If you are running Node `v18+` and encounter an `ERR_OSSL_EVP_UNSUPPORTED` error, start the app with `NODE_OPTIONS=--openssl-legacy-provider npm start`.)*
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser to view the application locally, or visit the live deployment at [giovanni-internship.vercel.app](https://vercel.app).
